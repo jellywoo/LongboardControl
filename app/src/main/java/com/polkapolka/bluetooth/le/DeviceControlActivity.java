@@ -33,6 +33,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
+import android.widget.ProgressBar;
 import android.widget.Switch;
 import android.widget.TextView;
 
@@ -59,6 +60,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private int[] RGBFrame = {0,0,0};
     private TextView isSerial;
     private TextView mConnectionState;
+    private TextView batteryPercent;
 //    private TextView mDataField;
     private SeekBar mRed,mGreen,mBlue;
     private String mDeviceName;
@@ -70,6 +72,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private BluetoothGattCharacteristic characteristicRX;
     private int red = 0, green = 255, blue = 0;
     private ColorPicker picker;
+    private ProgressBar progressBar;
 
     public final static UUID HM_RX_TX =
             UUID.fromString(SampleGattAttributes.HM_RX_TX);
@@ -156,6 +159,12 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         picker.setOnColorChangedListener(this);
         picker.setVisibility(View.INVISIBLE);
         picker.setEnabled(false);
+
+        batteryPercent = (TextView) findViewById(R.id.batteryPercent);
+        progressBar = (ProgressBar) findViewById(R.id.battery);
+
+        progressBar.setProgress(70);
+        batteryPercent.setText(progressBar.getProgress() + "%");
 
         Switch lightingSwitch = (Switch) findViewById(R.id.switch1);
         lightingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

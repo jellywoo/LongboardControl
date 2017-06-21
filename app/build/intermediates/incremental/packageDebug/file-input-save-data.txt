@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 21 13:45:33 EDT 2017
+#Wed Jun 21 15:16:11 EDT 2017
 2.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 5.set=ANDROID_RESOURCE
