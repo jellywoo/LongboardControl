@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

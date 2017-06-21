@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\jjche\.android\build-cache\450afb0addd85383e55efb7bc465411e7754e25b\output\assets"/></dataSet><dataSet config="main"><source path="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\src\main\assets"/><source path="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\src\debug\assets"/></dataSet></merger>

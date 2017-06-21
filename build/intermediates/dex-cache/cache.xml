@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="33cab216c69ddc0694e96721179c6f3461993bf2">
+        <dex dex="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_775406198c21406b665a3394a4e9bc9f5c762603\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2795da31dd3e5bdba7b2af186a687227a2b80692\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b591b8b21d0e73a1bc3b9654602d414558aa20a9">
+        <dex dex="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_775406198c21406b665a3394a4e9bc9f5c762603\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\.android\build-cache\450afb0addd85383e55efb7bc465411e7754e25b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
+        <dex dex="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d552c939eff7878a105c742c8ff16f35d0c05267\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\jjche\AndroidStudioProjects\BT4LEDTestAS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2795da31dd3e5bdba7b2af186a687227a2b80692\classes.dex" />
+    </item>
+
+</items>
