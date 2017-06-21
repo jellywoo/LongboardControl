@@ -148,7 +148,7 @@ containing a value of this type.
         public static final int menu_scan=0x7f08000b;
         public static final int menu_stop=0x7f08000c;
         public static final int picker=0x7f080005;
-        public static final int seekBar=0x7f080003;
+        public static final int seekBar1=0x7f080003;
         public static final int switch1=0x7f080004;
     }
     public static final class layout {

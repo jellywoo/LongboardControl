@@ -32,7 +32,7 @@ int id menu_refresh 0x7f080008
 int id menu_scan 0x7f08000b
 int id menu_stop 0x7f08000c
 int id picker 0x7f080005
-int id seekBar 0x7f080003
+int id seekBar1 0x7f080003
 int id switch1 0x7f080004
 int layout actionbar_indeterminate_progress 0x7f030000
 int layout gatt_services_characteristics 0x7f030001

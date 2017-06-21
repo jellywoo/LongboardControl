@@ -1,27 +1,27 @@
 #Internal package file, do not edit.
-#Wed Jun 21 00:36:32 EDT 2017
+#Wed Jun 21 13:45:31 EDT 2017
 2.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-5.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+5.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 5.set=ANDROID_RESOURCE
 3.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-6.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\listitem_device.xml
+6.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\actionbar_indeterminate_progress.xml
 2.set=ANDROID_RESOURCE
 4.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-7.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\actionbar_indeterminate_progress.xml
+7.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\gatt_services_characteristics.xml
 7.set=ANDROID_RESOURCE
 count=8
-0.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+0.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\listitem_device.xml
 5.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
 4.set=ANDROID_RESOURCE
 6.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-1.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+1.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\gatt_services.xml
 1.set=ANDROID_RESOURCE
 7.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-2.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\gatt_services_characteristics.xml
+2.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
 6.set=ANDROID_RESOURCE
 0.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-3.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+3.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 3.set=ANDROID_RESOURCE
 1.base=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_
-4.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\gatt_services.xml
+4.file=C\:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
 0.set=ANDROID_RESOURCE
