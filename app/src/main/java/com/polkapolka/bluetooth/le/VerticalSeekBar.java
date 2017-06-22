@@ -12,6 +12,8 @@ import android.widget.SeekBar;
 
 public class VerticalSeekBar extends SeekBar {
 
+    protected OnSeekBarChangeListener onChangeListener;
+
     public VerticalSeekBar(Context context) {
         super(context);
     }
@@ -49,15 +51,50 @@ public class VerticalSeekBar extends SeekBar {
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-            case MotionEvent.ACTION_MOVE:
+                setSelected(true);
+//                setPressed(true);
+                if (onChangeListener != null)
+                    onChangeListener.onStartTrackingTouch(this);
+                break;
             case MotionEvent.ACTION_UP:
-                setProgress(getMax() - (int) (getMax() * event.getY() / getHeight()));
+                setSelected(false);
+                setPressed(false);
+                if (onChangeListener != null)
+                    onChangeListener.onStopTrackingTouch(this);
+                break;
+            case MotionEvent.ACTION_MOVE:
+                int progress = getMax() - (int) (getMax() * event.getY() / getHeight());
+                if (progress < 0) {
+                    progress = 0;
+                }
+                else if (progress > 100) {
+                    progress = 100;
+                }
+                setProgress(progress);
                 onSizeChanged(getWidth(), getHeight(), 0, 0);
+                if (onChangeListener != null)
+                    onChangeListener.onProgressChanged(this, progress, true);
                 break;
 
+//                setSelected(false);
+//                setPressed(false);
+//                if (onChangeListener != null)
+//                    onChangeListener.onStopTrackingTouch(this);
+//                break;
             case MotionEvent.ACTION_CANCEL:
                 break;
         }
         return true;
+    }
+
+    @Override
+    public void setOnSeekBarChangeListener(OnSeekBarChangeListener onChangeListener) {
+        this.onChangeListener = onChangeListener;
+    }
+
+    @Override
+    public synchronized void setProgress(int progress) {
+        super.setProgress(progress);
+        onSizeChanged(getWidth(), getHeight(), 0, 0);
     }
 }

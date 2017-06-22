@@ -20,7 +20,10 @@ int dimen color_pointer_halo_radius 0x7f050006
 int dimen color_pointer_radius 0x7f050007
 int dimen color_wheel_radius 0x7f050008
 int dimen color_wheel_thickness 0x7f050009
-int drawable ic_launcher 0x7f020000
+int drawable background_fill 0x7f020000
+int drawable ic_launcher 0x7f020001
+int drawable progress 0x7f020002
+int drawable progress_fill 0x7f020003
 int id battery 0x7f080006
 int id batteryPercent 0x7f080007
 int id connection_state 0x7f080001

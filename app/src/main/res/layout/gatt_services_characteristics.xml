@@ -96,7 +96,8 @@
                 android:id="@+id/seekBar1"
                 android:layout_width="80dp"
                 android:layout_height="420dp"
-                android:progress="20"/>
+                android:progress="20"
+                android:progressDrawable="@drawable/progress"/>
         </FrameLayout>
     </LinearLayout>
 

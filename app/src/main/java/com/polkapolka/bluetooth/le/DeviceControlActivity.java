@@ -73,12 +73,92 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private int red = 0, green = 255, blue = 0;
     private ColorPicker picker;
     private ProgressBar progressBar;
+    private VerticalSeekBar seekBar;
 
     public final static UUID HM_RX_TX =
             UUID.fromString(SampleGattAttributes.HM_RX_TX);
 
     private final String LIST_NAME = "NAME";
     private final String LIST_UUID = "UUID";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.gatt_services_characteristics);
+
+        final Intent intent = getIntent();
+        mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
+        mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
+
+        // Sets up UI references.
+        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
+        mConnectionState = (TextView) findViewById(R.id.connection_state);
+        // is serial present?
+        isSerial = (TextView) findViewById(R.id.isSerial);
+
+//        mDataField = (TextView) findViewById(R.id.data_value);
+
+        getActionBar().setTitle(mDeviceName);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
+        bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+
+        picker = (ColorPicker) findViewById(R.id.picker);
+        picker.setShowOldCenterColor(false);
+        picker.setOnColorChangedListener(this);
+        picker.setVisibility(View.INVISIBLE);
+        picker.setEnabled(false);
+
+        batteryPercent = (TextView) findViewById(R.id.batteryPercent);
+        progressBar = (ProgressBar) findViewById(R.id.battery);
+        seekBar = (VerticalSeekBar) findViewById(R.id.seekBar1);
+
+        seekBar.setOnSeekBarChangeListener(new VerticalSeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                Log.d(TAG, "onProgressChanged: " + i);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                seekBar.setProgress(20);
+            }
+        });
+
+        progressBar.setProgress(70);
+        batteryPercent.setText(progressBar.getProgress() + "%");
+
+        Switch lightingSwitch = (Switch) findViewById(R.id.switch1);
+        lightingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                String str;
+
+                if (!b) {
+                    picker.setVisibility(View.INVISIBLE);
+                    picker.setEnabled(false);
+                    str = 0 + "," + 0 + "," + 0 + "\n";
+                }
+                else {
+                    picker.setVisibility(View.VISIBLE);
+                    picker.setEnabled(true);
+                    str = red + "," + green + "," + blue + "\n";
+                }
+
+                if(mConnected) {
+                    final byte[] tx = str.getBytes();
+                    characteristicTX.setValue(tx);
+                    mBluetoothLeService.writeCharacteristic(characteristicTX);
+                    mBluetoothLeService.setCharacteristicNotification(characteristicRX,true);
+                }
+            }
+        });
+    }
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -130,67 +210,6 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
 
     private void clearUI() {
 //        mDataField.setText(R.string.no_data);
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.gatt_services_characteristics);
-
-        final Intent intent = getIntent();
-        mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
-        mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
-
-        // Sets up UI references.
-        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
-         mConnectionState = (TextView) findViewById(R.id.connection_state);
-        // is serial present?
-        isSerial = (TextView) findViewById(R.id.isSerial);
-
-//        mDataField = (TextView) findViewById(R.id.data_value);
-     
-        getActionBar().setTitle(mDeviceName);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
-        bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
-
-        picker = (ColorPicker) findViewById(R.id.picker);
-        picker.setShowOldCenterColor(false);
-        picker.setOnColorChangedListener(this);
-        picker.setVisibility(View.INVISIBLE);
-        picker.setEnabled(false);
-
-        batteryPercent = (TextView) findViewById(R.id.batteryPercent);
-        progressBar = (ProgressBar) findViewById(R.id.battery);
-
-        progressBar.setProgress(70);
-        batteryPercent.setText(progressBar.getProgress() + "%");
-
-        Switch lightingSwitch = (Switch) findViewById(R.id.switch1);
-        lightingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                String str;
-
-                if (!b) {
-                    picker.setVisibility(View.INVISIBLE);
-                    picker.setEnabled(false);
-                    str = 0 + "," + 0 + "," + 0 + "\n";
-                }
-                else {
-                    picker.setVisibility(View.VISIBLE);
-                    picker.setEnabled(true);
-                    str = red + "," + green + "," + blue + "\n";
-                }
-
-                if(mConnected) {
-                        final byte[] tx = str.getBytes();
-                        characteristicTX.setValue(tx);
-                        mBluetoothLeService.writeCharacteristic(characteristicTX);
-                        mBluetoothLeService.setCharacteristicNotification(characteristicRX,true);
-                }
-            }
-        });
     }
 
     @Override
