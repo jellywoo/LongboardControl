@@ -74,6 +74,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private ColorPicker picker;
     private ProgressBar progressBar;
     private VerticalSeekBar seekBar;
+    private int motorDelay = 0;
 
     public final static UUID HM_RX_TX =
             UUID.fromString(SampleGattAttributes.HM_RX_TX);
@@ -116,7 +117,24 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         seekBar.setOnSeekBarChangeListener(new VerticalSeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                Log.d(TAG, "onProgressChanged: " + i);
+                i *= 1.8;
+
+                if (motorDelay == 0) {
+                    String str = "a," + i + "\n";
+                    Log.d(TAG, "sending motor speed=" + str);
+
+                    final byte[] tx = str.getBytes();
+                    if (mConnected) {
+                        characteristicTX.setValue(tx);
+                        mBluetoothLeService.writeCharacteristic(characteristicTX);
+                        mBluetoothLeService.setCharacteristicNotification(characteristicRX, true);
+                    }
+                    motorDelay = 0;
+                }
+
+                else {
+                    motorDelay++;
+                }
             }
 
             @Override
@@ -126,12 +144,12 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(20);
+                seekBar.setProgress(50);
             }
         });
 
-        progressBar.setProgress(70);
-        batteryPercent.setText(progressBar.getProgress() + "%");
+        progressBar.setProgress(100);
+        batteryPercent.setText("No Data");
 
         Switch lightingSwitch = (Switch) findViewById(R.id.switch1);
         lightingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -142,15 +160,17 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                 if (!b) {
                     picker.setVisibility(View.INVISIBLE);
                     picker.setEnabled(false);
-                    str = 0 + "," + 0 + "," + 0 + "\n";
+                    str = "b," + 0 + "," + 0 + "," + 0 + "\n";
                 }
                 else {
                     picker.setVisibility(View.VISIBLE);
                     picker.setEnabled(true);
-                    str = red + "," + green + "," + blue + "\n";
+                    str = "b," + red + "," + green + "," + blue + "\n";
                 }
 
                 if(mConnected) {
+                    Log.d(TAG, "sending color=" + str);
+
                     final byte[] tx = str.getBytes();
                     characteristicTX.setValue(tx);
                     mBluetoothLeService.writeCharacteristic(characteristicTX);
@@ -203,7 +223,12 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                 // Show all the supported services and characteristics on the user interface.
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
-                displayData(intent.getStringExtra(mBluetoothLeService.EXTRA_DATA));
+                String inData = intent.getStringExtra(mBluetoothLeService.EXTRA_DATA);
+                if (inData != null) {
+                    batteryPercent.setText("inData");
+//                    progressBar.setProgress(70);
+//                    batteryPercent.setText(progressBar.getProgress() + "%");
+                }
             }
         }
     };
@@ -273,13 +298,6 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         });
     }
 
-    private void displayData(String data) {
-
-        if (data != null) {
-//            mDataField.setText(data);
-        }
-    }
-
 
     // Demonstrates how to iterate through the supported GATT Services/Characteristics.
     // In this sample, we populate the data structure that is bound to the ExpandableListView
@@ -319,47 +337,14 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         return intentFilter;
     }
 
-    private void readSeek(SeekBar seekBar, final int pos) {
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){
-        	@Override
-        	   public void onProgressChanged(SeekBar seekBar, int progress,
-        	     boolean fromUser) {
-        			RGBFrame[pos]=progress;
-        		}
-
-        	   @Override
-        	   public void onStartTrackingTouch(SeekBar seekBar) {
-        	    // TODO Auto-generated method stub
-        	   }
-
-        	   @Override
-        	   public void onStopTrackingTouch(SeekBar seekBar) {
-        	    // TODO Auto-generated method stub
-              		makeChange();
-        	   }
-        });
-    }
-
-    // on change of bars write char
-    private void makeChange() {
-    	 String str = RGBFrame[0] + "," + RGBFrame[1] + "," + RGBFrame[2] + "\n";
-         Log.d(TAG, "Sending result=" + str);
-		 final byte[] tx = str.getBytes();
-		 if(mConnected) {
-		    characteristicTX.setValue(tx);
-			mBluetoothLeService.writeCharacteristic(characteristicTX);
-			mBluetoothLeService.setCharacteristicNotification(characteristicRX,true);
-		 }
-    }
-
     @Override
     public void onColorChanged(int color){
         red = Color.red(color);
         green = Color.green(color);
         blue = Color.blue(color);
 
-        String str = red + "," + green + "," + blue + "\n";
-        Log.d(TAG, "Sending result=" + str);
+        String str = "b," + red + "," + green + "," + blue + "\n";
+        Log.d(TAG, "sending color=" + str);
         final byte[] tx = str.getBytes();
         if(mConnected) {
             characteristicTX.setValue(tx);

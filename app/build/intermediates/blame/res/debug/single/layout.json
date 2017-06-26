@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
