@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -40,6 +40,10 @@
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gatt_services_characteristics.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
     },
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -126,6 +134,10 @@
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\layout\\listitem_device.xml"
     },
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

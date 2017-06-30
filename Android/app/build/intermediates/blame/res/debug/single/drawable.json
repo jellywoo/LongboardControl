@@ -44,6 +44,14 @@
         "source": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\src\\main\\res\\drawable\\background_fill.xml"
     },
     {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_fill.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\drawable\\background_fill.xml"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_fill.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\drawable\\progress_fill.xml"
+    },
+    {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\jjche\\.android\\build-cache\\b27d363a2394bf504d8cb8238205818204ee1cf1\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -158,6 +166,10 @@
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_fill.png",
         "source": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\src\\main\\res\\drawable\\progress_fill.png"
+    },
+    {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\drawable\\progress.xml"
     },
     {
         "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
