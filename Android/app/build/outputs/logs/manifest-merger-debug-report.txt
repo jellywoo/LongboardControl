@@ -61,7 +61,7 @@ ADDED from C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\src\main
 	android:label
 		ADDED from C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\src\main\AndroidManifest.xml:32:18-50
 	android:icon
-		ADDED from C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\src\main\AndroidManifest.xml:33:18-54
+		ADDED from C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\src\main\AndroidManifest.xml:33:18-52
 	android:theme
 		ADDED from C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\src\main\AndroidManifest.xml:34:18-63
 activity#com.polkapolka.bluetooth.le.DeviceScanActivity

@@ -1,13 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
-        "source": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\src\\main\\res\\menu\\gatt_services.xml"
-    },
-    {
-        "merged": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\jjche\\AndroidStudioProjects\\BT4LEDTestAS\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
         "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\menu\\gatt_services.xml"
     },

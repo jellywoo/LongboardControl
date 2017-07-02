@@ -1,6 +1,6 @@
+#include <Arduino.h>
 #include <SoftwareSerial.h>
 #include <PWMServo.h>
-#include <Arduino.h>
 
 SoftwareSerial bt(2, 3);
 
@@ -16,6 +16,8 @@ float vPow = 5;
 float r1 = 47000; // resistor 1
 float r2 = 10000; // resistor 2
 int voltcheck = 0;
+int speed = 0;
+int result;
 
 void setup() {
 	motor1.attach(9);
@@ -27,61 +29,59 @@ void setup() {
 	pinMode(pwr, OUTPUT);
 
 	digitalWrite(pwr, HIGH);
+
+	analogWrite (redLED, 255);
+	analogWrite (greenLED, 255);
+	analogWrite (blueLED, 255);
 }
 
 void loop() {
 	if (bt.available()) {
-	  	if (bt.read() == 'a') {
-	  		int speed = bt.parseInt();
-	  		
-	  		if (bt.read() == '\n' && speed >= 0 && speed <= 180) {
-	  			// bt.println("motor speed: "+String(speed));
-	  			motor1.write(speed);
-	  			startTime = millis();
-          bt.flush();
-	  		}
+		char key = bt.read();
+
+		if (key == 'a') {
+			speed = bt.parseInt();
+			
+			if (bt.read() == '\n' && speed >= 0 && speed <= 180) {
+				motor1.write(speed);
+				startTime = millis();
+			}
 		}
-  	
-	  	// if (bt.read() == 'b') {
-		  //   // look for the next valid integer in the incoming serial stream:
-		  //   int red = bt.parseInt();
-		  //   int green = bt.parseInt();
-		  //   int blue = bt.parseInt();
+	
+		if (key == 'b') {
+			// look for the next valid integer in the incoming serial stream:
+			red = bt.parseInt();
+			green = bt.parseInt();
+			blue = bt.parseInt();
 
-		  //   if (bt.read() == '\n') {
-		  //     // constrain the values to 0 - 255
-		  //     red = constrain(red, 0, 255);
-		  //     green = constrain(green, 0, 255);
-		  //     blue = constrain(blue, 0, 255);
+			if (bt.read() == '\n') {
+				// constrain the values to 0 - 255
+				red = constrain(red, 0, 255);
+				green = constrain(green, 0, 255);
+				blue = constrain(blue, 0, 255);
 
-		  //     // bt.println("change color: "+String(red)+","+String(green)+","+String(blue));
+				// inverse
+				red = 255 - red;
+				green = 255 - green;
+				blue = 255 - blue;
 
-		  //     // inverse
-		  //     red = 255 - red;
-		  //     green = 255 - green;
-		  //     blue = 255 - blue;
-
-		  //     // fill strip
-		  //     analogWrite (redLED, red);
-		  //     analogWrite (greenLED, green);
-		  //     analogWrite (blueLED, blue);
-		  //  }
-	   // 	}
-
-	 //   	if (bt.read() == 'c') {
-	 //   		if (voltcheck > 10) {
-		//         getv();
-		//         voltcheck = 0;
-	 //      	}
-
-	 //      	else {
-	 //        	voltcheck++;
-	 //      	}
-		// }
+				// fill strip
+				analogWrite (redLED, red);
+				analogWrite (greenLED, green);
+				analogWrite (blueLED, blue);
+			}
+		}
 	}
 
-	// if no response in 210ms, put motor to neutral
-	if ((millis() - startTime) > 210) {
+	if (voltcheck > 30000) {
+		getv();
+		voltcheck = 0;
+	}
+	else
+		voltcheck++;
+
+	// if no response, put motor to neutral
+	if ((millis() - startTime) > 300) {
 		motor1.write(90); 
 		delay(30); // wait for 30ms
 	}
@@ -89,7 +89,13 @@ void loop() {
 
 // get battery voltage
 static void getv() {
-	float v1 = (analogRead(5) * vPow) / 1023.0;
-	float v2 = v1 / (r2 / (r1 + r2));
-	bt.println(String(v2) + "v");
+	float v = (((analogRead(5) * vPow) / 1023.0) / (r2 / (r1 + r2))) - 18;
+	
+	if (v >= 7.2)
+		result = 100;
+	else
+		result = (int) (v/7.2 * 100);
+
+	bt.println(result);
+	bt.flush();
 }

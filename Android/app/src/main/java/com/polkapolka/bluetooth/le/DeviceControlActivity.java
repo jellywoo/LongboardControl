@@ -61,11 +61,9 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private TextView isSerial;
     private TextView mConnectionState;
     private TextView batteryPercent;
-//    private TextView mDataField;
     private SeekBar mRed,mGreen,mBlue;
     private String mDeviceName;
     private String mDeviceAddress;
-  //  private ExpandableListView mGattServicesList;
     private BluetoothLeService mBluetoothLeService;
     private boolean mConnected = false;
     private BluetoothGattCharacteristic characteristicTX;
@@ -74,7 +72,6 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private ColorPicker picker;
     private ProgressBar progressBar;
     private VerticalSeekBar seekBar;
-    private int motorDelay = 0;
 
     public final static UUID HM_RX_TX =
             UUID.fromString(SampleGattAttributes.HM_RX_TX);
@@ -97,8 +94,6 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         // is serial present?
         isSerial = (TextView) findViewById(R.id.isSerial);
 
-//        mDataField = (TextView) findViewById(R.id.data_value);
-
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
@@ -119,28 +114,19 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 i *= 1.8;
 
-                if (motorDelay == 0) {
-                    String str = "a," + i + "\n";
-                    Log.d(TAG, "sending motor speed=" + str);
+                String str = "a," + i + "\n";
+                Log.d(TAG, "sending motor speed=" + str);
 
-                    final byte[] tx = str.getBytes();
-                    if (mConnected) {
-                        characteristicTX.setValue(tx);
-                        mBluetoothLeService.writeCharacteristic(characteristicTX);
-                        mBluetoothLeService.setCharacteristicNotification(characteristicRX, true);
-                    }
-                    motorDelay = 0;
-                }
-
-                else {
-                    motorDelay++;
+                final byte[] tx = str.getBytes();
+                if (mConnected) {
+                    characteristicTX.setValue(tx);
+                    mBluetoothLeService.writeCharacteristic(characteristicTX);
+                    mBluetoothLeService.setCharacteristicNotification(characteristicRX, true);
                 }
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStartTrackingTouch(SeekBar seekBar) {}
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
@@ -218,24 +204,19 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                 mConnected = false;
                 updateConnectionState(R.string.disconnected);
                 invalidateOptionsMenu();
-                clearUI();
             } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 // Show all the supported services and characteristics on the user interface.
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 String inData = intent.getStringExtra(mBluetoothLeService.EXTRA_DATA);
                 if (inData != null) {
-                    batteryPercent.setText("inData");
-//                    progressBar.setProgress(70);
-//                    batteryPercent.setText(progressBar.getProgress() + "%");
+                    progressBar.setProgress(Integer.parseInt(inData.trim()));
+                    batteryPercent.setText(progressBar.getProgress() + "%");
+//                    batteryPercent.setText(inData.trim() + "%");
                 }
             }
         }
     };
-
-    private void clearUI() {
-//        mDataField.setText(R.string.no_data);
-    }
 
     @Override
     protected void onResume() {
@@ -308,7 +289,6 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         String unknownServiceString = getResources().getString(R.string.unknown_service);
         ArrayList<HashMap<String, String>> gattServiceData = new ArrayList<HashMap<String, String>>();
 
- 
         // Loops through available GATT Services.
         for (BluetoothGattService gattService : gattServices) {
             HashMap<String, String> currentServiceData = new HashMap<String, String>();
