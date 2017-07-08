@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498961565609"
+    timestamp="1499546713984"
     token="3392483528769777480"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="361" />
+        duration="278" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="19" />
     <task
         name="verifier"
-        duration="23" />
+        duration="5" />
 
     <artifact
         location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1498960490418"
+        timestamp="1499545061572"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498961565609"
+        timestamp="1499546713984"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
