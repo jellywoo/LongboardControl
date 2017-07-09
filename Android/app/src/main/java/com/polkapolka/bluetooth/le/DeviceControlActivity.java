@@ -251,7 +251,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                         progressBar.setProgress(temp);
                         batteryPercent.setText(progressBar.getProgress() + "%");
                     }
-                    catch (Exception e) {
+                    catch (NumberFormatException e) {
 
                     }
                 }
