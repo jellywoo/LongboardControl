@@ -74,14 +74,15 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private ColorPicker picker;
     private ProgressBar progressBar;
     private VerticalSeekBar seekBar;
+    private long lastBatteryTime;
 
     private int curSpeed;
     private boolean motorOn = false;
-    private long lastTime;
+    private long lastMotorTime;
     private final Handler handler = new Handler();
     private final Runnable runnable = new Runnable() {
         public void run() {
-            if (motorOn && (SystemClock.elapsedRealtime() - lastTime > 0)) {
+            if (motorOn && (SystemClock.elapsedRealtime() - lastMotorTime > 0)) {
                 String str = "a," + curSpeed + "\n";
                 Log.d(TAG, "sending motor speed (runnable)=" + str);
 
@@ -90,7 +91,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                     characteristicTX.setValue(tx);
                     mBluetoothLeService.writeCharacteristic(characteristicTX);
                     mBluetoothLeService.setCharacteristicNotification(characteristicRX, true);
-                    lastTime = SystemClock.elapsedRealtime();
+                    lastMotorTime = SystemClock.elapsedRealtime();
                     handler.postDelayed(runnable, 10);
                 }
             }
@@ -133,9 +134,12 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         progressBar = (ProgressBar) findViewById(R.id.battery);
         seekBar = (VerticalSeekBar) findViewById(R.id.seekBar1);
 
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
         seekBar.setOnSeekBarChangeListener(new VerticalSeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                handler.removeCallbacks(runnable);
                 i *= 1.8;
                 curSpeed = i;
 
@@ -147,7 +151,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                     characteristicTX.setValue(tx);
                     mBluetoothLeService.writeCharacteristic(characteristicTX);
                     mBluetoothLeService.setCharacteristicNotification(characteristicRX, true);
-                    lastTime = SystemClock.elapsedRealtime();
+                    lastMotorTime = SystemClock.elapsedRealtime();
                     handler.postDelayed(runnable, 10);
                 }
             }
@@ -240,10 +244,16 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 String inData = intent.getStringExtra(mBluetoothLeService.EXTRA_DATA);
-                if (inData != null) {
-                    progressBar.setProgress(Integer.parseInt(inData.trim()));
-                    batteryPercent.setText(progressBar.getProgress() + "%");
-//                    batteryPercent.setText(inData.trim() + "%");
+                if (inData != null && (SystemClock.elapsedRealtime() - lastBatteryTime) > 10000) {
+                    try {
+                        lastBatteryTime = SystemClock.elapsedRealtime();
+                        int temp = Integer.parseInt(inData.trim());
+                        progressBar.setProgress(temp);
+                        batteryPercent.setText(progressBar.getProgress() + "%");
+                    }
+                    catch (Exception e) {
+
+                    }
                 }
             }
         }
