@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499564056145"
+    timestamp="1499609583819"
     token="3392483528769777480"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,13 +23,20 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1499563976632"
+        timestamp="1499606301649"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
@@ -60,13 +67,22 @@
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1499606542044"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1499609583819"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1499564056145"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

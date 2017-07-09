@@ -137,6 +137,7 @@ containing a value of this type.
         public static final int background_fill=0x7f020000;
         public static final int progress=0x7f020001;
         public static final int progress_fill=0x7f020002;
+        public static final int thumb_image=0x7f020003;
     }
     public static final class id {
         public static final int battery=0x7f090006;

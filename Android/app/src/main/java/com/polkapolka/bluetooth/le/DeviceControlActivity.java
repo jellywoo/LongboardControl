@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -43,6 +44,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
+import java.util.regex.Matcher;
 
 import android.widget.SeekBar;
 
@@ -250,6 +252,12 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                         int temp = Integer.parseInt(inData.trim());
                         progressBar.setProgress(temp);
                         batteryPercent.setText(progressBar.getProgress() + "%");
+
+                        String newColor;
+                        float green = 255 * (progressBar.getProgress()/100);
+                        float red = 255 - green;
+                        newColor = "#" + Integer.toString(Math.round(red)) + Integer.toString(Math.round(green)) + "00";
+                        progressBar.setProgressTintList(ColorStateList.valueOf(Color.parseColor(newColor)));
                     }
                     catch (NumberFormatException e) {
 

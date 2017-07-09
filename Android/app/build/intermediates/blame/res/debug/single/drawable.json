@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_image.xml",
+        "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\drawable\\thumb_image.xml"
+    },
+    {
         "merged": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_fill.xml",
         "source": "C:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\src\\main\\res\\drawable\\background_fill.xml"
     },

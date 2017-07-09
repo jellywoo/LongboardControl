@@ -97,7 +97,10 @@
                 android:layout_width="80dp"
                 android:layout_height="420dp"
                 android:progress="50"
-                android:progressDrawable="@drawable/progress"/>
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb_image"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
         </FrameLayout>
     </LinearLayout>
 

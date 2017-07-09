@@ -23,6 +23,7 @@ int dimen color_wheel_thickness 0x7f060009
 int drawable background_fill 0x7f020000
 int drawable progress 0x7f020001
 int drawable progress_fill 0x7f020002
+int drawable thumb_image 0x7f020003
 int id battery 0x7f090006
 int id batteryPercent 0x7f090007
 int id connection_state 0x7f090001
