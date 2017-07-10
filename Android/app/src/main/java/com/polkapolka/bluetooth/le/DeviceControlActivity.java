@@ -253,11 +253,11 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                         progressBar.setProgress(temp);
                         batteryPercent.setText(progressBar.getProgress() + "%");
 
-                        String newColor;
-                        float green = 255 * (progressBar.getProgress()/100);
-                        float red = 255 - green;
-                        newColor = "#" + Integer.toString(Math.round(red)) + Integer.toString(Math.round(green)) + "00";
-                        progressBar.setProgressTintList(ColorStateList.valueOf(Color.parseColor(newColor)));
+//                        String newColor;
+//                        float green = 255 * (progressBar.getProgress()/100);
+//                        float red = 255 - green;
+//                        newColor = "#" + Integer.toString(Math.round(red)) + Integer.toString(Math.round(green)) + "00";
+//                        progressBar.setProgressTintList(ColorStateList.valueOf(Color.parseColor(newColor)));
                     }
                     catch (NumberFormatException e) {
 
