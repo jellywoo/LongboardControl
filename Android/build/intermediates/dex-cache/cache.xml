@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\jjche\.android\build-cache\beb717f046fce60f6f08f2bee7c66f4d87c7f05a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
-        <dex dex="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a268ba12dfa2b659f5dcd3a2d6cc631ea6d5020d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -25,17 +16,26 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="8a18b79922cebcfe814ed082e8f4a94266c3524a">
+        sha1="fe0ae713076c9e956627d0e32c2a6f127a41ea29">
         <dex dex="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_55cbb671b80c7e53d233edaf9f4ef73e064d8529\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jjche\.android\build-cache\beb717f046fce60f6f08f2bee7c66f4d87c7f05a\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jjche\.android\build-cache\414b2231d4652eca5319008a84610572dd4e87c2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="eb56e86e91c6d995f08cf06326262b51225c5f7d">
+        <dex dex="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1aa97d5f526ae0bba8e2d5bc0156d6ff468e48e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jjche\.android\build-cache\3d572f62f6ba650dd37b27deea3212e2a50a7fd7\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
-        <dex dex="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\pre-dexed\debug\classes_a268ba12dfa2b659f5dcd3a2d6cc631ea6d5020d.jar" />
+        <dex dex="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78232f2448d598abc7d7543dcef629537db1dd12\classes.dex" />
     </item>
 
 </items>

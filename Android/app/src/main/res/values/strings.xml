@@ -19,9 +19,9 @@
     <string name="label_data">Data: </string>
     <string name="label_device_address">Device Address:</string>
     <string name="label_state">State:</string>
-    <string name="no_data">No data</string>
-    <string name="connected">Connected</string>
-    <string name="disconnected">Disconnected</string>
+    <!--<string name="no_data">State: No data</string>-->
+    <string name="connected">State: Connected</string>
+    <string name="disconnected">State: Disconnected</string>
     <string name="title_devices">Longboard Control</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
 

@@ -39,6 +39,9 @@ import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,6 +51,8 @@ import java.util.regex.Matcher;
 
 import android.widget.SeekBar;
 
+import com.github.anastr.speedviewlib.base.Gauge;
+import com.github.anastr.speedviewlib.base.Speedometer;
 import com.larswerkman.holocolorpicker.ColorPicker;
 
 /**
@@ -77,6 +82,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private ProgressBar progressBar;
     private VerticalSeekBar seekBar;
     private long lastBatteryTime;
+    private Gauge gauge;
 
     private int curSpeed;
     private boolean motorOn = false;
@@ -116,7 +122,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
         // Sets up UI references.
-        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
+//        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         // is serial present?
         isSerial = (TextView) findViewById(R.id.isSerial);
@@ -135,6 +141,30 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         batteryPercent = (TextView) findViewById(R.id.batteryPercent);
         progressBar = (ProgressBar) findViewById(R.id.battery);
         seekBar = (VerticalSeekBar) findViewById(R.id.seekBar1);
+
+        gauge = (Gauge) findViewById(R.id.speedometer);
+        LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+        LocationListener locationListener = new LocationListener() {
+            public void onLocationChanged(Location location) {
+                location.getLatitude();
+                gauge.speedTo(location.getSpeed() * (25/11));
+            }
+
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+            }
+
+            public void onProviderEnabled(String provider) {
+            }
+
+            public void onProviderDisabled(String provider) {
+            }
+        };
+        try {
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+        }
+        catch (SecurityException e){
+            gauge.speedTo(0);
+        }
 
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
@@ -346,7 +376,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                     LIST_NAME, SampleGattAttributes.lookup(uuid, unknownServiceString));
             
             // If the service exists for HM 10 Serial, say so.
-            if(SampleGattAttributes.lookup(uuid, unknownServiceString) == "HM 10 Serial") { isSerial.setText("Ready"); } else {  isSerial.setText("No, serial :-("); }
+            if(SampleGattAttributes.lookup(uuid, unknownServiceString) == "HM 10 Serial") { isSerial.setText("Ready"); } else {  isSerial.setText("No Data"); }
             currentServiceData.put(LIST_UUID, uuid);
             gattServiceData.add(currentServiceData);
 

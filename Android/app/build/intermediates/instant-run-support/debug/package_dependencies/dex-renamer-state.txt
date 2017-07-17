@@ -1,4 +1,7 @@
-#Fri Jun 30 11:02:31 EDT 2017
-base.0=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a268ba12dfa2b659f5dcd3a2d6cc631ea6d5020d
+#Mon Jul 17 02:37:34 EDT 2017
+base.0=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_78232f2448d598abc7d7543dcef629537db1dd12
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a268ba12dfa2b659f5dcd3a2d6cc631ea6d5020d\\classes.dex
+file.1=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d1aa97d5f526ae0bba8e2d5bc0156d6ff468e48e\\classes.dex
+base.1=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d1aa97d5f526ae0bba8e2d5bc0156d6ff468e48e
+file.0=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_78232f2448d598abc7d7543dcef629537db1dd12\\classes.dex

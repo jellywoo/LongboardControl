@@ -21,7 +21,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int bar_length=0x7f010001;
+        public static final int bar_length=0x7f010009;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -29,7 +29,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int bar_orientation_horizontal=0x7f010004;
+        public static final int bar_orientation_horizontal=0x7f01000c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -39,7 +39,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int bar_pointer_halo_radius=0x7f010003;
+        public static final int bar_pointer_halo_radius=0x7f01000b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -49,7 +49,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int bar_pointer_radius=0x7f010002;
+        public static final int bar_pointer_radius=0x7f01000a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -59,7 +59,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int bar_thickness=0x7f010000;
+        public static final int bar_thickness=0x7f010008;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -69,7 +69,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_center_halo_radius=0x7f010008;
+        public static final int color_center_halo_radius=0x7f010010;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -79,7 +79,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_center_radius=0x7f010007;
+        public static final int color_center_radius=0x7f01000f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -89,7 +89,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_pointer_halo_radius=0x7f01000a;
+        public static final int color_pointer_halo_radius=0x7f010012;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -99,7 +99,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_pointer_radius=0x7f010009;
+        public static final int color_pointer_radius=0x7f010011;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -109,7 +109,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_wheel_radius=0x7f010005;
+        public static final int color_wheel_radius=0x7f01000d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -119,7 +119,472 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color_wheel_thickness=0x7f010006;
+        public static final int color_wheel_thickness=0x7f01000e;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_accelerate=0x7f010022;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_backgroundCircleColor=0x7f010034;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_centerCircleColor=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_cutPadding=0x7f01003b;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_decelerate=0x7f010023;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_degreeBetweenMark=0x7f01002d;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_endDegree=0x7f010037;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_highSpeedColor=0x7f010033;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int sv_image=0x7f010001;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>NoIndicator</code></td><td>0</td><td></td></tr>
+<tr><td><code>NormalIndicator</code></td><td>1</td><td></td></tr>
+<tr><td><code>NormalSmallIndicator</code></td><td>2</td><td></td></tr>
+<tr><td><code>TriangleIndicator</code></td><td>3</td><td></td></tr>
+<tr><td><code>SpindleIndicator</code></td><td>4</td><td></td></tr>
+<tr><td><code>LineIndicator</code></td><td>5</td><td></td></tr>
+<tr><td><code>HalfLineIndicator</code></td><td>6</td><td></td></tr>
+<tr><td><code>QuarterLineIndicator</code></td><td>7</td><td></td></tr>
+</table>
+         */
+        public static final int sv_indicator=0x7f010039;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_indicatorColor=0x7f01002f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_indicatorWidth=0x7f010038;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_lowSpeedColor=0x7f010031;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_lowSpeedPercent=0x7f01001d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_markColor=0x7f010030;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_markWidth=0x7f01002e;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_maxSpeed=0x7f010021;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_mediumSpeedColor=0x7f010032;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_mediumSpeedPercent=0x7f01001e;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_minSpeed=0x7f010020;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>HORIZONTAL</code></td><td>0</td><td></td></tr>
+<tr><td><code>VERTICAL</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int sv_orientation=0x7f010002;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_pointerColor=0x7f01002b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_rayColor=0x7f01002c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedBackgroundColor=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedTextColor=0x7f010014;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>INTEGER</code></td><td>0</td><td></td></tr>
+<tr><td><code>FLOAT</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int sv_speedTextFormat=0x7f01002a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedTextPadding=0x7f010029;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>TOP_LEFT</code></td><td>0</td><td></td></tr>
+<tr><td><code>TOP_CENTER</code></td><td>1</td><td></td></tr>
+<tr><td><code>TOP_RIGHT</code></td><td>2</td><td></td></tr>
+<tr><td><code>LEFT</code></td><td>3</td><td></td></tr>
+<tr><td><code>CENTER</code></td><td>4</td><td></td></tr>
+<tr><td><code>RIGHT</code></td><td>5</td><td></td></tr>
+<tr><td><code>BOTTOM_LEFT</code></td><td>6</td><td></td></tr>
+<tr><td><code>BOTTOM_CENTER</code></td><td>7</td><td></td></tr>
+<tr><td><code>BOTTOM_RIGHT</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static final int sv_speedTextPosition=0x7f010026;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedTextSize=0x7f010017;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedTextTypeface=0x7f010024;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedometerBackColor=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedometerColor=0x7f010005;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>NORMAL</code></td><td>0</td><td></td></tr>
+<tr><td><code>LEFT</code></td><td>1</td><td></td></tr>
+<tr><td><code>TOP</code></td><td>2</td><td></td></tr>
+<tr><td><code>RIGHT</code></td><td>3</td><td></td></tr>
+<tr><td><code>BOTTOM</code></td><td>4</td><td></td></tr>
+<tr><td><code>TOP_LEFT</code></td><td>5</td><td></td></tr>
+<tr><td><code>TOP_RIGHT</code></td><td>6</td><td></td></tr>
+<tr><td><code>BOTTOM_RIGHT</code></td><td>7</td><td></td></tr>
+<tr><td><code>BOTTOM_LEFT</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static final int sv_speedometerMode=0x7f01003a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_speedometerWidth=0x7f010035;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_startDegree=0x7f010036;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_textColor=0x7f010013;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_textRightToLeft=0x7f01001f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_textSize=0x7f010018;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_textTypeface=0x7f010025;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_trembleDegree=0x7f01001b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_trembleDuration=0x7f01001c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_trianglesColor=0x7f010007;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_unit=0x7f010019;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_unitSpeedInterval=0x7f010028;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_unitTextColor=0x7f010015;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_unitTextSize=0x7f01001a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_unitUnderSpeedText=0x7f010027;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_withEffects=0x7f010006;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_withEffects3D=0x7f01003c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sv_withTremble=0x7f010016;
     }
     public static final class dimen {
         public static final int bar_length=0x7f060000;
@@ -140,20 +605,45 @@ containing a value of this type.
         public static final int thumb_image=0x7f020003;
     }
     public static final class id {
-        public static final int battery=0x7f090006;
-        public static final int batteryPercent=0x7f090007;
-        public static final int connection_state=0x7f090001;
-        public static final int device_address=0x7f090000;
-        public static final int device_name=0x7f090008;
-        public static final int isSerial=0x7f090002;
-        public static final int menu_connect=0x7f09000a;
-        public static final int menu_disconnect=0x7f09000b;
-        public static final int menu_refresh=0x7f090009;
-        public static final int menu_scan=0x7f09000c;
-        public static final int menu_stop=0x7f09000d;
-        public static final int picker=0x7f090004;
-        public static final int seekBar1=0x7f090005;
-        public static final int switch1=0x7f090003;
+        public static final int BOTTOM=0x7f090015;
+        public static final int BOTTOM_CENTER=0x7f090002;
+        public static final int BOTTOM_LEFT=0x7f090003;
+        public static final int BOTTOM_RIGHT=0x7f090004;
+        public static final int CENTER=0x7f090005;
+        public static final int FLOAT=0x7f09000b;
+        public static final int HORIZONTAL=0x7f090000;
+        public static final int HalfLineIndicator=0x7f09000d;
+        public static final int INTEGER=0x7f09000c;
+        public static final int LEFT=0x7f090006;
+        public static final int LineIndicator=0x7f09000e;
+        public static final int NORMAL=0x7f090016;
+        public static final int NoIndicator=0x7f09000f;
+        public static final int NormalIndicator=0x7f090010;
+        public static final int NormalSmallIndicator=0x7f090011;
+        public static final int QuarterLineIndicator=0x7f090012;
+        public static final int RIGHT=0x7f090007;
+        public static final int SpindleIndicator=0x7f090013;
+        public static final int TOP=0x7f090017;
+        public static final int TOP_CENTER=0x7f090008;
+        public static final int TOP_LEFT=0x7f090009;
+        public static final int TOP_RIGHT=0x7f09000a;
+        public static final int TriangleIndicator=0x7f090014;
+        public static final int VERTICAL=0x7f090001;
+        public static final int battery=0x7f09001e;
+        public static final int batteryPercent=0x7f09001f;
+        public static final int connection_state=0x7f090018;
+        public static final int device_address=0x7f090021;
+        public static final int device_name=0x7f090020;
+        public static final int isSerial=0x7f090019;
+        public static final int menu_connect=0x7f090023;
+        public static final int menu_disconnect=0x7f090024;
+        public static final int menu_refresh=0x7f090022;
+        public static final int menu_scan=0x7f090025;
+        public static final int menu_stop=0x7f090026;
+        public static final int picker=0x7f09001c;
+        public static final int seekBar1=0x7f09001d;
+        public static final int speedometer=0x7f09001a;
+        public static final int switch1=0x7f09001b;
     }
     public static final class layout {
         public static final int actionbar_indeterminate_progress=0x7f040000;
@@ -184,14 +674,58 @@ containing a value of this type.
         public static final int menu_disconnect=0x7f07000d;
         public static final int menu_scan=0x7f07000e;
         public static final int menu_stop=0x7f07000f;
-        public static final int no_data=0x7f070010;
-        public static final int red_slide=0x7f070011;
-        public static final int title_devices=0x7f070012;
-        public static final int unknown_characteristic=0x7f070013;
-        public static final int unknown_device=0x7f070014;
-        public static final int unknown_service=0x7f070015;
+        public static final int red_slide=0x7f070010;
+        public static final int title_devices=0x7f070011;
+        public static final int unknown_characteristic=0x7f070012;
+        public static final int unknown_device=0x7f070013;
+        public static final int unknown_service=0x7f070014;
     }
     public static final class styleable {
+        /** Attributes that can be used with a AwesomeSpeedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AwesomeSpeedometer_sv_speedometerColor com.jerrywchen.longboardcontrol:sv_speedometerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AwesomeSpeedometer_sv_trianglesColor com.jerrywchen.longboardcontrol:sv_trianglesColor}</code></td><td></td></tr>
+           </table>
+           @see #AwesomeSpeedometer_sv_speedometerColor
+           @see #AwesomeSpeedometer_sv_trianglesColor
+         */
+        public static final int[] AwesomeSpeedometer = {
+            0x7f010005, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerColor}
+          attribute's value can be found in the {@link #AwesomeSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerColor
+        */
+        public static final int AwesomeSpeedometer_sv_speedometerColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_trianglesColor}
+          attribute's value can be found in the {@link #AwesomeSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_trianglesColor
+        */
+        public static final int AwesomeSpeedometer_sv_trianglesColor = 1;
         /** Attributes that can be used with a ColorBars.
            <p>Includes the following attributes:</p>
            <table>
@@ -211,8 +745,8 @@ containing a value of this type.
            @see #ColorBars_bar_thickness
          */
         public static final int[] ColorBars = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c
         };
         /**
           <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#bar_length}
@@ -313,8 +847,8 @@ containing a value of this type.
            @see #ColorPicker_color_wheel_thickness
          */
         public static final int[] ColorPicker = {
-            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
-            0x7f010009, 0x7f01000a
+            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
+            0x7f010011, 0x7f010012
         };
         /**
           <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#color_center_halo_radius}
@@ -412,5 +946,1102 @@ containing a value of this type.
           @attr name com.jerrywchen.longboardcontrol:color_wheel_thickness
         */
         public static final int ColorPicker_color_wheel_thickness = 1;
+        /** Attributes that can be used with a DeluxeSpeedView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #DeluxeSpeedView_sv_centerCircleColor com.jerrywchen.longboardcontrol:sv_centerCircleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DeluxeSpeedView_sv_speedBackgroundColor com.jerrywchen.longboardcontrol:sv_speedBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #DeluxeSpeedView_sv_withEffects com.jerrywchen.longboardcontrol:sv_withEffects}</code></td><td></td></tr>
+           </table>
+           @see #DeluxeSpeedView_sv_centerCircleColor
+           @see #DeluxeSpeedView_sv_speedBackgroundColor
+           @see #DeluxeSpeedView_sv_withEffects
+         */
+        public static final int[] DeluxeSpeedView = {
+            0x7f010000, 0x7f010003, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_centerCircleColor}
+          attribute's value can be found in the {@link #DeluxeSpeedView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_centerCircleColor
+        */
+        public static final int DeluxeSpeedView_sv_centerCircleColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedBackgroundColor}
+          attribute's value can be found in the {@link #DeluxeSpeedView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedBackgroundColor
+        */
+        public static final int DeluxeSpeedView_sv_speedBackgroundColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_withEffects}
+          attribute's value can be found in the {@link #DeluxeSpeedView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_withEffects
+        */
+        public static final int DeluxeSpeedView_sv_withEffects = 2;
+        /** Attributes that can be used with a Gauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Gauge_sv_accelerate com.jerrywchen.longboardcontrol:sv_accelerate}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_decelerate com.jerrywchen.longboardcontrol:sv_decelerate}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_lowSpeedPercent com.jerrywchen.longboardcontrol:sv_lowSpeedPercent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_maxSpeed com.jerrywchen.longboardcontrol:sv_maxSpeed}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_mediumSpeedPercent com.jerrywchen.longboardcontrol:sv_mediumSpeedPercent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_minSpeed com.jerrywchen.longboardcontrol:sv_minSpeed}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextColor com.jerrywchen.longboardcontrol:sv_speedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextFormat com.jerrywchen.longboardcontrol:sv_speedTextFormat}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextPadding com.jerrywchen.longboardcontrol:sv_speedTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextPosition com.jerrywchen.longboardcontrol:sv_speedTextPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextSize com.jerrywchen.longboardcontrol:sv_speedTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_speedTextTypeface com.jerrywchen.longboardcontrol:sv_speedTextTypeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_textColor com.jerrywchen.longboardcontrol:sv_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_textRightToLeft com.jerrywchen.longboardcontrol:sv_textRightToLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_textSize com.jerrywchen.longboardcontrol:sv_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_textTypeface com.jerrywchen.longboardcontrol:sv_textTypeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_trembleDegree com.jerrywchen.longboardcontrol:sv_trembleDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_trembleDuration com.jerrywchen.longboardcontrol:sv_trembleDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_unit com.jerrywchen.longboardcontrol:sv_unit}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_unitSpeedInterval com.jerrywchen.longboardcontrol:sv_unitSpeedInterval}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_unitTextColor com.jerrywchen.longboardcontrol:sv_unitTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_unitTextSize com.jerrywchen.longboardcontrol:sv_unitTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_unitUnderSpeedText com.jerrywchen.longboardcontrol:sv_unitUnderSpeedText}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gauge_sv_withTremble com.jerrywchen.longboardcontrol:sv_withTremble}</code></td><td></td></tr>
+           </table>
+           @see #Gauge_sv_accelerate
+           @see #Gauge_sv_decelerate
+           @see #Gauge_sv_lowSpeedPercent
+           @see #Gauge_sv_maxSpeed
+           @see #Gauge_sv_mediumSpeedPercent
+           @see #Gauge_sv_minSpeed
+           @see #Gauge_sv_speedTextColor
+           @see #Gauge_sv_speedTextFormat
+           @see #Gauge_sv_speedTextPadding
+           @see #Gauge_sv_speedTextPosition
+           @see #Gauge_sv_speedTextSize
+           @see #Gauge_sv_speedTextTypeface
+           @see #Gauge_sv_textColor
+           @see #Gauge_sv_textRightToLeft
+           @see #Gauge_sv_textSize
+           @see #Gauge_sv_textTypeface
+           @see #Gauge_sv_trembleDegree
+           @see #Gauge_sv_trembleDuration
+           @see #Gauge_sv_unit
+           @see #Gauge_sv_unitSpeedInterval
+           @see #Gauge_sv_unitTextColor
+           @see #Gauge_sv_unitTextSize
+           @see #Gauge_sv_unitUnderSpeedText
+           @see #Gauge_sv_withTremble
+         */
+        public static final int[] Gauge = {
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
+            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
+            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
+            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
+            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_accelerate}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_accelerate
+        */
+        public static final int Gauge_sv_accelerate = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_decelerate}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_decelerate
+        */
+        public static final int Gauge_sv_decelerate = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_lowSpeedPercent}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_lowSpeedPercent
+        */
+        public static final int Gauge_sv_lowSpeedPercent = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_maxSpeed}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_maxSpeed
+        */
+        public static final int Gauge_sv_maxSpeed = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_mediumSpeedPercent}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_mediumSpeedPercent
+        */
+        public static final int Gauge_sv_mediumSpeedPercent = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_minSpeed}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_minSpeed
+        */
+        public static final int Gauge_sv_minSpeed = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextColor}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextColor
+        */
+        public static final int Gauge_sv_speedTextColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextFormat}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>INTEGER</code></td><td>0</td><td></td></tr>
+<tr><td><code>FLOAT</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextFormat
+        */
+        public static final int Gauge_sv_speedTextFormat = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextPadding}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextPadding
+        */
+        public static final int Gauge_sv_speedTextPadding = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextPosition}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>TOP_LEFT</code></td><td>0</td><td></td></tr>
+<tr><td><code>TOP_CENTER</code></td><td>1</td><td></td></tr>
+<tr><td><code>TOP_RIGHT</code></td><td>2</td><td></td></tr>
+<tr><td><code>LEFT</code></td><td>3</td><td></td></tr>
+<tr><td><code>CENTER</code></td><td>4</td><td></td></tr>
+<tr><td><code>RIGHT</code></td><td>5</td><td></td></tr>
+<tr><td><code>BOTTOM_LEFT</code></td><td>6</td><td></td></tr>
+<tr><td><code>BOTTOM_CENTER</code></td><td>7</td><td></td></tr>
+<tr><td><code>BOTTOM_RIGHT</code></td><td>8</td><td></td></tr>
+</table>
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextPosition
+        */
+        public static final int Gauge_sv_speedTextPosition = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextSize}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextSize
+        */
+        public static final int Gauge_sv_speedTextSize = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedTextTypeface}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedTextTypeface
+        */
+        public static final int Gauge_sv_speedTextTypeface = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_textColor}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_textColor
+        */
+        public static final int Gauge_sv_textColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_textRightToLeft}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_textRightToLeft
+        */
+        public static final int Gauge_sv_textRightToLeft = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_textSize}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_textSize
+        */
+        public static final int Gauge_sv_textSize = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_textTypeface}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_textTypeface
+        */
+        public static final int Gauge_sv_textTypeface = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_trembleDegree}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_trembleDegree
+        */
+        public static final int Gauge_sv_trembleDegree = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_trembleDuration}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_trembleDuration
+        */
+        public static final int Gauge_sv_trembleDuration = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_unit}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_unit
+        */
+        public static final int Gauge_sv_unit = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_unitSpeedInterval}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_unitSpeedInterval
+        */
+        public static final int Gauge_sv_unitSpeedInterval = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_unitTextColor}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_unitTextColor
+        */
+        public static final int Gauge_sv_unitTextColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_unitTextSize}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_unitTextSize
+        */
+        public static final int Gauge_sv_unitTextSize = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_unitUnderSpeedText}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_unitUnderSpeedText
+        */
+        public static final int Gauge_sv_unitUnderSpeedText = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_withTremble}
+          attribute's value can be found in the {@link #Gauge} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_withTremble
+        */
+        public static final int Gauge_sv_withTremble = 3;
+        /** Attributes that can be used with a ImageLinearGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ImageLinearGauge_sv_image com.jerrywchen.longboardcontrol:sv_image}</code></td><td></td></tr>
+           <tr><td><code>{@link #ImageLinearGauge_sv_speedometerBackColor com.jerrywchen.longboardcontrol:sv_speedometerBackColor}</code></td><td></td></tr>
+           </table>
+           @see #ImageLinearGauge_sv_image
+           @see #ImageLinearGauge_sv_speedometerBackColor
+         */
+        public static final int[] ImageLinearGauge = {
+            0x7f010001, 0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_image}
+          attribute's value can be found in the {@link #ImageLinearGauge} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jerrywchen.longboardcontrol:sv_image
+        */
+        public static final int ImageLinearGauge_sv_image = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerBackColor}
+          attribute's value can be found in the {@link #ImageLinearGauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerBackColor
+        */
+        public static final int ImageLinearGauge_sv_speedometerBackColor = 1;
+        /** Attributes that can be used with a ImageSpeedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ImageSpeedometer_sv_image com.jerrywchen.longboardcontrol:sv_image}</code></td><td></td></tr>
+           </table>
+           @see #ImageSpeedometer_sv_image
+         */
+        public static final int[] ImageSpeedometer = {
+            0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_image}
+          attribute's value can be found in the {@link #ImageSpeedometer} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jerrywchen.longboardcontrol:sv_image
+        */
+        public static final int ImageSpeedometer_sv_image = 0;
+        /** Attributes that can be used with a LinearGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearGauge_sv_orientation com.jerrywchen.longboardcontrol:sv_orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearGauge_sv_speedometerBackColor com.jerrywchen.longboardcontrol:sv_speedometerBackColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearGauge_sv_speedometerColor com.jerrywchen.longboardcontrol:sv_speedometerColor}</code></td><td></td></tr>
+           </table>
+           @see #LinearGauge_sv_orientation
+           @see #LinearGauge_sv_speedometerBackColor
+           @see #LinearGauge_sv_speedometerColor
+         */
+        public static final int[] LinearGauge = {
+            0x7f010002, 0x7f010004, 0x7f010005
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_orientation}
+          attribute's value can be found in the {@link #LinearGauge} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>HORIZONTAL</code></td><td>0</td><td></td></tr>
+<tr><td><code>VERTICAL</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.jerrywchen.longboardcontrol:sv_orientation
+        */
+        public static final int LinearGauge_sv_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerBackColor}
+          attribute's value can be found in the {@link #LinearGauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerBackColor
+        */
+        public static final int LinearGauge_sv_speedometerBackColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerColor}
+          attribute's value can be found in the {@link #LinearGauge} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerColor
+        */
+        public static final int LinearGauge_sv_speedometerColor = 2;
+        /** Attributes that can be used with a PointerSpeedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PointerSpeedometer_sv_centerCircleColor com.jerrywchen.longboardcontrol:sv_centerCircleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PointerSpeedometer_sv_pointerColor com.jerrywchen.longboardcontrol:sv_pointerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PointerSpeedometer_sv_speedometerColor com.jerrywchen.longboardcontrol:sv_speedometerColor}</code></td><td></td></tr>
+           </table>
+           @see #PointerSpeedometer_sv_centerCircleColor
+           @see #PointerSpeedometer_sv_pointerColor
+           @see #PointerSpeedometer_sv_speedometerColor
+         */
+        public static final int[] PointerSpeedometer = {
+            0x7f010000, 0x7f010005, 0x7f01002b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_centerCircleColor}
+          attribute's value can be found in the {@link #PointerSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_centerCircleColor
+        */
+        public static final int PointerSpeedometer_sv_centerCircleColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_pointerColor}
+          attribute's value can be found in the {@link #PointerSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_pointerColor
+        */
+        public static final int PointerSpeedometer_sv_pointerColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerColor}
+          attribute's value can be found in the {@link #PointerSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerColor
+        */
+        public static final int PointerSpeedometer_sv_speedometerColor = 1;
+        /** Attributes that can be used with a RaySpeedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RaySpeedometer_sv_degreeBetweenMark com.jerrywchen.longboardcontrol:sv_degreeBetweenMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #RaySpeedometer_sv_markWidth com.jerrywchen.longboardcontrol:sv_markWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #RaySpeedometer_sv_rayColor com.jerrywchen.longboardcontrol:sv_rayColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #RaySpeedometer_sv_speedBackgroundColor com.jerrywchen.longboardcontrol:sv_speedBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #RaySpeedometer_sv_withEffects com.jerrywchen.longboardcontrol:sv_withEffects}</code></td><td></td></tr>
+           </table>
+           @see #RaySpeedometer_sv_degreeBetweenMark
+           @see #RaySpeedometer_sv_markWidth
+           @see #RaySpeedometer_sv_rayColor
+           @see #RaySpeedometer_sv_speedBackgroundColor
+           @see #RaySpeedometer_sv_withEffects
+         */
+        public static final int[] RaySpeedometer = {
+            0x7f010003, 0x7f010006, 0x7f01002c, 0x7f01002d,
+            0x7f01002e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_degreeBetweenMark}
+          attribute's value can be found in the {@link #RaySpeedometer} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_degreeBetweenMark
+        */
+        public static final int RaySpeedometer_sv_degreeBetweenMark = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_markWidth}
+          attribute's value can be found in the {@link #RaySpeedometer} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_markWidth
+        */
+        public static final int RaySpeedometer_sv_markWidth = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_rayColor}
+          attribute's value can be found in the {@link #RaySpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_rayColor
+        */
+        public static final int RaySpeedometer_sv_rayColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedBackgroundColor}
+          attribute's value can be found in the {@link #RaySpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedBackgroundColor
+        */
+        public static final int RaySpeedometer_sv_speedBackgroundColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_withEffects}
+          attribute's value can be found in the {@link #RaySpeedometer} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_withEffects
+        */
+        public static final int RaySpeedometer_sv_withEffects = 1;
+        /** Attributes that can be used with a SpeedView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SpeedView_sv_centerCircleColor com.jerrywchen.longboardcontrol:sv_centerCircleColor}</code></td><td></td></tr>
+           </table>
+           @see #SpeedView_sv_centerCircleColor
+         */
+        public static final int[] SpeedView = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_centerCircleColor}
+          attribute's value can be found in the {@link #SpeedView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_centerCircleColor
+        */
+        public static final int SpeedView_sv_centerCircleColor = 0;
+        /** Attributes that can be used with a Speedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Speedometer_sv_backgroundCircleColor com.jerrywchen.longboardcontrol:sv_backgroundCircleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_cutPadding com.jerrywchen.longboardcontrol:sv_cutPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_endDegree com.jerrywchen.longboardcontrol:sv_endDegree}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_highSpeedColor com.jerrywchen.longboardcontrol:sv_highSpeedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_indicator com.jerrywchen.longboardcontrol:sv_indicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_indicatorColor com.jerrywchen.longboardcontrol:sv_indicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_indicatorWidth com.jerrywchen.longboardcontrol:sv_indicatorWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_lowSpeedColor com.jerrywchen.longboardcontrol:sv_lowSpeedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_markColor com.jerrywchen.longboardcontrol:sv_markColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_mediumSpeedColor com.jerrywchen.longboardcontrol:sv_mediumSpeedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_speedometerMode com.jerrywchen.longboardcontrol:sv_speedometerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_speedometerWidth com.jerrywchen.longboardcontrol:sv_speedometerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Speedometer_sv_startDegree com.jerrywchen.longboardcontrol:sv_startDegree}</code></td><td></td></tr>
+           </table>
+           @see #Speedometer_sv_backgroundCircleColor
+           @see #Speedometer_sv_cutPadding
+           @see #Speedometer_sv_endDegree
+           @see #Speedometer_sv_highSpeedColor
+           @see #Speedometer_sv_indicator
+           @see #Speedometer_sv_indicatorColor
+           @see #Speedometer_sv_indicatorWidth
+           @see #Speedometer_sv_lowSpeedColor
+           @see #Speedometer_sv_markColor
+           @see #Speedometer_sv_mediumSpeedColor
+           @see #Speedometer_sv_speedometerMode
+           @see #Speedometer_sv_speedometerWidth
+           @see #Speedometer_sv_startDegree
+         */
+        public static final int[] Speedometer = {
+            0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032,
+            0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036,
+            0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a,
+            0x7f01003b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_backgroundCircleColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_backgroundCircleColor
+        */
+        public static final int Speedometer_sv_backgroundCircleColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_cutPadding}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_cutPadding
+        */
+        public static final int Speedometer_sv_cutPadding = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_endDegree}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_endDegree
+        */
+        public static final int Speedometer_sv_endDegree = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_highSpeedColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_highSpeedColor
+        */
+        public static final int Speedometer_sv_highSpeedColor = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_indicator}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>NoIndicator</code></td><td>0</td><td></td></tr>
+<tr><td><code>NormalIndicator</code></td><td>1</td><td></td></tr>
+<tr><td><code>NormalSmallIndicator</code></td><td>2</td><td></td></tr>
+<tr><td><code>TriangleIndicator</code></td><td>3</td><td></td></tr>
+<tr><td><code>SpindleIndicator</code></td><td>4</td><td></td></tr>
+<tr><td><code>LineIndicator</code></td><td>5</td><td></td></tr>
+<tr><td><code>HalfLineIndicator</code></td><td>6</td><td></td></tr>
+<tr><td><code>QuarterLineIndicator</code></td><td>7</td><td></td></tr>
+</table>
+          @attr name com.jerrywchen.longboardcontrol:sv_indicator
+        */
+        public static final int Speedometer_sv_indicator = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_indicatorColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_indicatorColor
+        */
+        public static final int Speedometer_sv_indicatorColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_indicatorWidth}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_indicatorWidth
+        */
+        public static final int Speedometer_sv_indicatorWidth = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_lowSpeedColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_lowSpeedColor
+        */
+        public static final int Speedometer_sv_lowSpeedColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_markColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_markColor
+        */
+        public static final int Speedometer_sv_markColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_mediumSpeedColor}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_mediumSpeedColor
+        */
+        public static final int Speedometer_sv_mediumSpeedColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerMode}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>NORMAL</code></td><td>0</td><td></td></tr>
+<tr><td><code>LEFT</code></td><td>1</td><td></td></tr>
+<tr><td><code>TOP</code></td><td>2</td><td></td></tr>
+<tr><td><code>RIGHT</code></td><td>3</td><td></td></tr>
+<tr><td><code>BOTTOM</code></td><td>4</td><td></td></tr>
+<tr><td><code>TOP_LEFT</code></td><td>5</td><td></td></tr>
+<tr><td><code>TOP_RIGHT</code></td><td>6</td><td></td></tr>
+<tr><td><code>BOTTOM_RIGHT</code></td><td>7</td><td></td></tr>
+<tr><td><code>BOTTOM_LEFT</code></td><td>8</td><td></td></tr>
+</table>
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerMode
+        */
+        public static final int Speedometer_sv_speedometerMode = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerWidth}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerWidth
+        */
+        public static final int Speedometer_sv_speedometerWidth = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_startDegree}
+          attribute's value can be found in the {@link #Speedometer} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_startDegree
+        */
+        public static final int Speedometer_sv_startDegree = 7;
+        /** Attributes that can be used with a TubeSpeedometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TubeSpeedometer_sv_speedometerBackColor com.jerrywchen.longboardcontrol:sv_speedometerBackColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TubeSpeedometer_sv_withEffects3D com.jerrywchen.longboardcontrol:sv_withEffects3D}</code></td><td></td></tr>
+           </table>
+           @see #TubeSpeedometer_sv_speedometerBackColor
+           @see #TubeSpeedometer_sv_withEffects3D
+         */
+        public static final int[] TubeSpeedometer = {
+            0x7f010004, 0x7f01003c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_speedometerBackColor}
+          attribute's value can be found in the {@link #TubeSpeedometer} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_speedometerBackColor
+        */
+        public static final int TubeSpeedometer_sv_speedometerBackColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jerrywchen.longboardcontrol.R.attr#sv_withEffects3D}
+          attribute's value can be found in the {@link #TubeSpeedometer} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jerrywchen.longboardcontrol:sv_withEffects3D
+        */
+        public static final int TubeSpeedometer_sv_withEffects3D = 1;
     };
 }

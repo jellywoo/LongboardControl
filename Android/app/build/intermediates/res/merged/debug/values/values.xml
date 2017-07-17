@@ -5,8 +5,61 @@
         <item>Green</item>
         <item>Blue</item>
     </string-array>
+    <attr format="color" name="sv_centerCircleColor"/>
+    <attr format="reference" name="sv_image"/>
+    <attr format="enum" name="sv_orientation">
+        <enum name="HORIZONTAL" value="0"/>
+        <enum name="VERTICAL" value="1"/>
+    </attr>
+    <attr format="color" name="sv_speedBackgroundColor"/>
+    <attr format="color" name="sv_speedometerBackColor"/>
+    <attr format="color" name="sv_speedometerColor"/>
+    <attr format="boolean" name="sv_withEffects"/>
+    <declare-styleable name="AwesomeSpeedometer"><attr name="sv_speedometerColor"/><attr format="color" name="sv_trianglesColor"/></declare-styleable>
     <declare-styleable name="ColorBars"><attr format="dimension" name="bar_thickness"/><attr format="dimension" name="bar_length"/><attr format="dimension" name="bar_pointer_radius"/><attr format="dimension" name="bar_pointer_halo_radius"/><attr format="boolean" name="bar_orientation_horizontal"/></declare-styleable>
     <declare-styleable name="ColorPicker"><attr format="dimension" name="color_wheel_radius"/><attr format="dimension" name="color_wheel_thickness"/><attr format="dimension" name="color_center_radius"/><attr format="dimension" name="color_center_halo_radius"/><attr format="dimension" name="color_pointer_radius"/><attr format="dimension" name="color_pointer_halo_radius"/></declare-styleable>
+    <declare-styleable name="DeluxeSpeedView"><attr name="sv_centerCircleColor"/><attr name="sv_speedBackgroundColor"/><attr name="sv_withEffects"/></declare-styleable>
+    <declare-styleable name="Gauge"><attr format="color" name="sv_textColor"/><attr format="color" name="sv_speedTextColor"/><attr format="color" name="sv_unitTextColor"/><attr format="boolean" name="sv_withTremble"/><attr format="dimension" name="sv_speedTextSize"/><attr format="dimension" name="sv_textSize"/><attr format="string" name="sv_unit"/><attr format="dimension" name="sv_unitTextSize"/><attr format="float" name="sv_trembleDegree"/><attr format="integer" name="sv_trembleDuration"/><attr format="integer" name="sv_lowSpeedPercent"/><attr format="integer" name="sv_mediumSpeedPercent"/><attr format="boolean" name="sv_textRightToLeft"/><attr format="integer" name="sv_minSpeed"/><attr format="integer" name="sv_maxSpeed"/><attr format="float" name="sv_accelerate"/><attr format="float" name="sv_decelerate"/><attr format="string" name="sv_speedTextTypeface"/><attr format="string" name="sv_textTypeface"/><attr format="enum" name="sv_speedTextPosition">
+            <enum name="TOP_LEFT" value="0"/>
+            <enum name="TOP_CENTER" value="1"/>
+            <enum name="TOP_RIGHT" value="2"/>
+            <enum name="LEFT" value="3"/>
+            <enum name="CENTER" value="4"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM_LEFT" value="6"/>
+            <enum name="BOTTOM_CENTER" value="7"/>
+            <enum name="BOTTOM_RIGHT" value="8"/>
+        </attr><attr format="boolean" name="sv_unitUnderSpeedText"/><attr format="dimension" name="sv_unitSpeedInterval"/><attr format="dimension" name="sv_speedTextPadding"/><attr format="enum" name="sv_speedTextFormat">
+            <enum name="INTEGER" value="0"/>
+            <enum name="FLOAT" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ImageLinearGauge"><attr name="sv_speedometerBackColor"/><attr name="sv_image"/></declare-styleable>
+    <declare-styleable name="ImageSpeedometer"><attr name="sv_image"/></declare-styleable>
+    <declare-styleable name="LinearGauge"><attr name="sv_orientation"/><attr name="sv_speedometerColor"/><attr name="sv_speedometerBackColor"/></declare-styleable>
+    <declare-styleable name="PointerSpeedometer"><attr name="sv_centerCircleColor"/><attr name="sv_speedometerColor"/><attr format="color" name="sv_pointerColor"/></declare-styleable>
+    <declare-styleable name="RaySpeedometer"><attr name="sv_speedBackgroundColor"/><attr name="sv_withEffects"/><attr format="color" name="sv_rayColor"/><attr format="integer" name="sv_degreeBetweenMark"/><attr format="dimension" name="sv_markWidth"/></declare-styleable>
+    <declare-styleable name="SpeedView"><attr name="sv_centerCircleColor"/></declare-styleable>
+    <declare-styleable name="Speedometer"><attr format="color" name="sv_indicatorColor"/><attr format="color" name="sv_markColor"/><attr format="color" name="sv_lowSpeedColor"/><attr format="color" name="sv_mediumSpeedColor"/><attr format="color" name="sv_highSpeedColor"/><attr format="color" name="sv_backgroundCircleColor"/><attr format="dimension" name="sv_speedometerWidth"/><attr format="integer" name="sv_startDegree"/><attr format="integer" name="sv_endDegree"/><attr format="dimension" name="sv_indicatorWidth"/><attr format="enum" name="sv_indicator">
+            <enum name="NoIndicator" value="0"/>
+            <enum name="NormalIndicator" value="1"/>
+            <enum name="NormalSmallIndicator" value="2"/>
+            <enum name="TriangleIndicator" value="3"/>
+            <enum name="SpindleIndicator" value="4"/>
+            <enum name="LineIndicator" value="5"/>
+            <enum name="HalfLineIndicator" value="6"/>
+            <enum name="QuarterLineIndicator" value="7"/>
+        </attr><attr format="enum" name="sv_speedometerMode">
+            <enum name="NORMAL" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="TOP" value="2"/>
+            <enum name="RIGHT" value="3"/>
+            <enum name="BOTTOM" value="4"/>
+            <enum name="TOP_LEFT" value="5"/>
+            <enum name="TOP_RIGHT" value="6"/>
+            <enum name="BOTTOM_RIGHT" value="7"/>
+            <enum name="BOTTOM_LEFT" value="8"/>
+        </attr><attr format="dimension" name="sv_cutPadding"/></declare-styleable>
+    <declare-styleable name="TubeSpeedometer"><attr name="sv_speedometerBackColor"/><attr format="boolean" name="sv_withEffects3D"/></declare-styleable>
     <dimen name="bar_length">240dp</dimen>
     <dimen name="bar_pointer_halo_radius">14dp</dimen>
     <dimen name="bar_pointer_radius">6dp</dimen>
@@ -21,8 +74,8 @@
     <string name="ble_not_supported">BLE is not supported</string>
     <string name="blue_slide">Blue</string>
     <string name="button">Send</string>
-    <string name="connected">Connected</string>
-    <string name="disconnected">Disconnected</string>
+    <string name="connected">State: Connected</string>
+    <string name="disconnected">State: Disconnected</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
     <string name="green_slide">Green</string>
     <string name="is_serial">Getting ready...</string>
@@ -33,7 +86,6 @@
     <string name="menu_disconnect">Disconnect</string>
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
-    <string name="no_data">No data</string>
     <string name="red_slide">Red</string>
     <string name="title_devices">Longboard Control</string>
     <string name="unknown_characteristic">Unknown characteristic</string>
