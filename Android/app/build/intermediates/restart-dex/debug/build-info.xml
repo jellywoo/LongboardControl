@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500274217908"
+    timestamp="1500427369775"
     token="3392483528769777480"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="319" />
+        duration="475" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="41" />
     <task
         name="verifier"
-        duration="15" />
+        duration="25" />
 
     <artifact
         location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -29,11 +29,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1500274136695"
+        timestamp="1500426981928"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
@@ -56,10 +53,10 @@
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -67,10 +64,13 @@
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500274217908"
+        timestamp="1500427369775"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\jjche\Documents\GitHub\LongboardControl\Android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"

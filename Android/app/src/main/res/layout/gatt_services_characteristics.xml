@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 app:sv_speedometerMode="TOP"
                 app:sv_minSpeed="0"
-                app:sv_maxSpeed="25"
+                app:sv_maxSpeed="20"
                 app:sv_unit="mph"
                 app:sv_unitTextColor="#ffffff"
                 app:sv_speedTextColor="#ffffff"

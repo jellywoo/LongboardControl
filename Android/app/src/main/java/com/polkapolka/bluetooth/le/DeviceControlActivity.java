@@ -354,6 +354,9 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
             @Override
             public void run() {
                 mConnectionState.setText(resourceId);
+                if (resourceId == R.string.disconnected) {
+                    isSerial.setText("Getting ready...");
+                }
             }
         });
     }
