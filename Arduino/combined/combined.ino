@@ -89,13 +89,31 @@ void loop() {
 
 // get battery voltage
 static void getv() {
-  // get voltage and subtract by 18 (min)
-	float v = (((analogRead(5) * vPow) / 1023.0) / (r2 / (r1 + r2))) - 18.5;
+ 	// calculate voltage
+	float v = (((analogRead(5) * vPow) / 1023.0) / (r2 / (r1 + r2)));
 	
-	if (v >= 6.7)
+	if (v > 24.51)
 		result = 100;
-	else
-		result = (int) (v/6.7 * 100);
+	else if (v > 23.994)
+		result = 90;
+	else if (v > 23.616)
+		result = 80;
+	else if (v > 23.298)
+		result = 70;
+	else if (v > 23.034)
+		result = 60;
+	else if (v > 22.872)
+		result = 50;
+	else if (v > 22.746)
+		result = 40;
+	else if (v > 22.482)
+		result = 30;
+	else if (v > 22.098)
+		result = 20;
+	else if (v > 19.254)
+		result = 10;
+	else 
+		result = 0;
 
 	bt.println(result);
 	bt.flush();
