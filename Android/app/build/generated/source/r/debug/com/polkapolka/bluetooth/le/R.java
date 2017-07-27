@@ -631,15 +631,26 @@ containing a value of this type.
         public static final int VERTICAL=0x7f090001;
         public static final int battery=0x7f09001e;
         public static final int batteryPercent=0x7f09001f;
+        public static final int clear_miles1=0x7f09002e;
+        public static final int clear_miles2=0x7f09002f;
         public static final int connection_state=0x7f090018;
-        public static final int device_address=0x7f090021;
-        public static final int device_name=0x7f090020;
+        public static final int device_address=0x7f09002a;
+        public static final int device_name=0x7f090029;
         public static final int isSerial=0x7f090019;
-        public static final int menu_connect=0x7f090023;
-        public static final int menu_disconnect=0x7f090024;
-        public static final int menu_refresh=0x7f090022;
-        public static final int menu_scan=0x7f090025;
-        public static final int menu_stop=0x7f090026;
+        public static final int menu_connect=0x7f09002c;
+        public static final int menu_disconnect=0x7f09002d;
+        public static final int menu_refresh=0x7f09002b;
+        public static final int menu_scan=0x7f090030;
+        public static final int menu_stop=0x7f090031;
+        public static final int miles1a=0x7f090020;
+        public static final int miles1b=0x7f090021;
+        public static final int miles1c=0x7f090022;
+        public static final int miles2a=0x7f090023;
+        public static final int miles2b=0x7f090024;
+        public static final int miles2c=0x7f090025;
+        public static final int miles3a=0x7f090026;
+        public static final int miles3b=0x7f090027;
+        public static final int miles3c=0x7f090028;
         public static final int picker=0x7f09001c;
         public static final int seekBar1=0x7f09001d;
         public static final int speedometer=0x7f09001a;
@@ -674,11 +685,15 @@ containing a value of this type.
         public static final int menu_disconnect=0x7f07000d;
         public static final int menu_scan=0x7f07000e;
         public static final int menu_stop=0x7f07000f;
-        public static final int red_slide=0x7f070010;
-        public static final int title_devices=0x7f070011;
-        public static final int unknown_characteristic=0x7f070012;
-        public static final int unknown_device=0x7f070013;
-        public static final int unknown_service=0x7f070014;
+        public static final int miles=0x7f070010;
+        public static final int miles_charge=0x7f070011;
+        public static final int miles_now=0x7f070012;
+        public static final int miles_total=0x7f070013;
+        public static final int red_slide=0x7f070014;
+        public static final int title_devices=0x7f070015;
+        public static final int unknown_characteristic=0x7f070016;
+        public static final int unknown_device=0x7f070017;
+        public static final int unknown_service=0x7f070018;
     }
     public static final class styleable {
         /** Attributes that can be used with a AwesomeSpeedometer.

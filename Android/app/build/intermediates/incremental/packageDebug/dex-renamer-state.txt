@@ -1,4 +1,4 @@
-#Tue Jul 18 21:06:48 EDT 2017
+#Wed Jul 26 17:39:14 EDT 2017
 base.0=C\:\\Users\\jjche\\Documents\\GitHub\\LongboardControl\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_524a48ab36dcf86abd52a4721a890b03bc428816
 renamed.1=classes.dex
 renamed.0=classes2.dex

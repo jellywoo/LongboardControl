@@ -4,6 +4,7 @@
     <shared>
       <config>
         <devices>
+          <device id="Galaxy S8+" />
           <device id="pixel_xl" />
           <device id="Nexus 6P" />
         </devices>
@@ -22,31 +23,95 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceControlActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/DeviceScanActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/polkapolka/bluetooth/le/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceControlActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/DeviceScanActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/polkapolka/bluetooth/le/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/jRojxTce83rEN7rYa71k+6XUyAY=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/jRojxTce83rEN7rYa71k+6XUyAY=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/jRojxTce83rEN7rYa71k+6XUyAY=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/jRojxTce83rEN7rYa71k+6XUyAY=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceControlActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/DeviceScanActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/polkapolka/bluetooth/le/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceControlActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/DeviceScanActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/polkapolka/bluetooth/le/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/polkapolka/bluetooth/le/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/polkapolka/bluetooth/le/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/gatt_services.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/gatt_services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/gatt_services.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/gatt_services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,31 +168,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gatt_services_characteristics.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gatt_services_characteristics.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            <state relative-caret-position="667">
+              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+              <folding>
+                <element signature="e#1554#1576#0" expanded="true" />
+                <element signature="e#1820#1839#0" expanded="true" />
+                <element signature="e#6100#6119#0" expanded="true" />
+                <element signature="e#6691#6706#0" expanded="true" />
+                <element signature="e#7199#7221#0" expanded="true" />
+                <element signature="e#7793#7808#0" expanded="true" />
+                <element signature="e#8301#8322#0" expanded="true" />
+                <element signature="e#8894#8909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gatt_services.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/gatt_services.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+            <state relative-caret-position="351">
+              <caret line="167" column="43" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#10575#10593#0" expanded="true" />
-                <element signature="e#10796#10817#0" expanded="true" />
-                <element signature="e#13966#14249#0" expanded="true" />
-                <element signature="e#14125#14146#0" expanded="true" />
-                <element signature="e#14248#14249#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1849,13 +1931,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/thumb_image.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/background_fill.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/progress_fill.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/gatt_services.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java" />
       </list>
     </option>
@@ -1891,7 +1975,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1909,18 +1993,72 @@
               <option name="myItemId" value="Android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="988919473434543431" />
+    <property name="device.picker.selection" value="Galaxy_S8_API_25" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/velociraptor-master" />
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -2255,8 +2393,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.77882355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34391192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24814814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34391192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2302,7 +2440,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4000">
           <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2310,7 +2457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2320,11 +2466,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2344,7 +2485,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2880">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2354,11 +2504,6 @@
           <caret line="142" column="45" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2370,7 +2515,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
           <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2380,11 +2534,6 @@
           <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2396,7 +2545,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4080">
           <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2406,11 +2564,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2422,7 +2575,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2430,7 +2592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2440,11 +2601,6 @@
           <caret line="258" column="41" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2456,7 +2612,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2466,11 +2631,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2482,7 +2642,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2492,11 +2661,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2508,7 +2672,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2518,11 +2691,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2534,7 +2702,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2544,11 +2721,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2560,7 +2732,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2570,11 +2751,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2586,7 +2762,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2596,11 +2781,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2612,7 +2792,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2622,11 +2811,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2638,7 +2822,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2648,11 +2841,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2664,7 +2852,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2674,11 +2871,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2718,7 +2910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2735,7 +2926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2769,14 +2959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -2788,18 +2970,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#10575#10593#0" expanded="true" />
-            <element signature="e#10796#10817#0" expanded="true" />
-            <element signature="e#13966#14249#0" expanded="true" />
-            <element signature="e#14125#14146#0" expanded="true" />
-            <element signature="e#14248#14249#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="587">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2808,9 +2994,39 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="667">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding>
+            <element signature="e#1554#1576#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
+            <element signature="e#6100#6119#0" expanded="true" />
+            <element signature="e#6691#6706#0" expanded="true" />
+            <element signature="e#7199#7221#0" expanded="true" />
+            <element signature="e#7793#7808#0" expanded="true" />
+            <element signature="e#8301#8322#0" expanded="true" />
+            <element signature="e#8894#8909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/gatt_services.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/polkapolka/bluetooth/le/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="167" column="43" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

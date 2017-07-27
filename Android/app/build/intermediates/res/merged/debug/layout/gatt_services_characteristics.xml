@@ -21,22 +21,6 @@
     android:layout_margin="5dp"
     android:weightSum="1">
 
-    <!--<LinearLayout android:orientation="horizontal"-->
-                  <!--android:layout_width="match_parent"-->
-                  <!--android:layout_height="wrap_content"-->
-                  <!--android:layout_margin="10dp">-->
-        <!--<TextView android:layout_width="wrap_content"-->
-                  <!--android:layout_height="wrap_content"-->
-                  <!--android:text="@string/label_device_address"-->
-                  <!--android:textSize="18sp"/>-->
-        <!--<Space android:layout_width="5dp"-->
-               <!--android:layout_height="wrap_content"/>-->
-        <!--<TextView android:id="@+id/device_address"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="18sp"/>-->
-    <!--</LinearLayout>-->
-
     <LinearLayout android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -44,7 +28,7 @@
         <LinearLayout
             android:layout_width="0dip"
             android:layout_height="110dp"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:orientation="vertical"
             android:layout_marginTop="5dp">
 
@@ -65,7 +49,7 @@
 
         <LinearLayout
             android:layout_width="0dip"
-            android:layout_weight="0.6"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="5dp">
@@ -92,10 +76,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp">
+
         <LinearLayout
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="420dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center">
 
             <Switch
                 android:id="@+id/switch1"
@@ -114,9 +101,10 @@
         </LinearLayout>
 
         <FrameLayout
-            android:layout_width="80dp"
+            android:layout_width="match_parent"
             android:layout_height="420dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="3">
 
             <com.polkapolka.bluetooth.le.VerticalSeekBar
                 android:id="@+id/seekBar1"
@@ -126,7 +114,8 @@
                 android:progressDrawable="@drawable/progress"
                 android:thumb="@drawable/thumb_image"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"/>
+                android:paddingRight="20dp"
+                android:layout_gravity="center"/>
         </FrameLayout>
     </LinearLayout>
 
@@ -151,5 +140,104 @@
             android:layout_height="wrap_content"
             android:text="100%"
             android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/miles1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles_now"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="34sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/miles2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles_charge"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="34sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/miles3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles_total"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="34sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/miles3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/miles"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -25,12 +25,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.SystemClock;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -83,6 +85,14 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
     private VerticalSeekBar seekBar;
     private long lastBatteryTime;
     private Gauge gauge;
+    private Location oldLocation;
+    private int firstOpen = 1;
+    private float curDist = 0;
+    private float lastDist;
+    private float totalDist;
+    private TextView dist1;
+    private TextView dist2;
+    private TextView dist3;
 
     private int curSpeed;
     private boolean motorOn = false;
@@ -122,10 +132,17 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
         // Sets up UI references.
-//        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
-        // is serial present?
         isSerial = (TextView) findViewById(R.id.isSerial);
+        dist1 = (TextView)findViewById(R.id.miles1b);
+        dist2 = (TextView)findViewById(R.id.miles2b);
+        dist3 = (TextView)findViewById(R.id.miles3b);
+
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        lastDist = prefs.getFloat("lastDist", 0);
+        totalDist = prefs.getFloat("totalDist", 0);
+        dist2.setText(String.format("%.02f", (lastDist * 0.000621371192)));
+        dist3.setText(String.format("%.02f", (totalDist * 0.000621371192)));
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -146,8 +163,26 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
         LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
         LocationListener locationListener = new LocationListener() {
             public void onLocationChanged(Location location) {
-                location.getLatitude();
-                gauge.speedTo(location.getSpeed() * (25/11));
+                if (firstOpen == 1) {
+                    firstOpen = 0;
+                    oldLocation = location;
+                }
+
+                else {
+                    if (location.distanceTo(oldLocation) - oldLocation.getAccuracy() > 0) {
+                        gauge.speedTo(location.getSpeed() * (25 / 11));
+
+                        curDist += location.distanceTo(oldLocation);
+                        String temp = String.format("%.02f", (curDist * 0.000621371192));
+                        dist1.setText(temp);
+                        temp = String.format("%.02f", ((lastDist + curDist) * 0.000621371192));
+                        dist2.setText(temp);
+                        temp = String.format("%.02f", ((totalDist + curDist) * 0.000621371192));
+                        dist3.setText(temp);
+
+                        oldLocation = location;
+                    }
+                }
             }
 
             public void onStatusChanged(String provider, int status, Bundle extras) {
@@ -159,6 +194,7 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
             public void onProviderDisabled(String provider) {
             }
         };
+
         try {
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
         }
@@ -305,12 +341,24 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
             final boolean result = mBluetoothLeService.connect(mDeviceAddress);
             Log.d(TAG, "Connect request result=" + result);
         }
+
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        lastDist = prefs.getFloat("lastDist", 0);
+        totalDist = prefs.getFloat("totalDist", 0);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         unregisterReceiver(mGattUpdateReceiver);
+
+        totalDist += curDist;
+        lastDist += curDist;
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putFloat("lastDist", lastDist);
+        editor.putFloat("totalDist", totalDist);
+        editor.apply();
     }
 
     @Override
@@ -341,6 +389,14 @@ public class DeviceControlActivity extends Activity implements ColorPicker.OnCol
                 return true;
             case R.id.menu_disconnect:
                 mBluetoothLeService.disconnect();
+                return true;
+            case R.id.clear_miles1:
+                lastDist = 0;
+                dist2.setText(String.format("%.02f", lastDist));
+                return true;
+            case R.id.clear_miles2:
+                totalDist = 0;
+                dist3.setText(String.format("%.02f", totalDist));
                 return true;
             case android.R.id.home:
                 onBackPressed();

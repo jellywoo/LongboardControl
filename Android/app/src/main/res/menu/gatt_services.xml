@@ -26,4 +26,12 @@
           android:title="@string/menu_disconnect"
           android:orderInCategory="101"
           android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/clear_miles1"
+        android:title="Clear Charge Miles"
+        android:orderInCategory="102"
+        android:showAsAction="collapseActionView"/>
+    <item android:id="@+id/clear_miles2"
+        android:title="Clear Lifetime Miles"
+        android:orderInCategory="102"
+        android:showAsAction="collapseActionView"/>
 </menu>

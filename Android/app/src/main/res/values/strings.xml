@@ -43,4 +43,8 @@
     <string name="red_slide">Red</string>
     <string name="blue_slide">Blue</string>
     <string name="green_slide">Green</string>
+    <string name="miles_now">This Trip</string>
+    <string name="miles_charge">Since Last Charge</string>
+    <string name="miles_total">Lifetime</string>
+    <string name="miles">miles</string>
 </resources>
